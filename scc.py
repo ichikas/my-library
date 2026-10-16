@@ -1,9 +1,3 @@
-"""
-有向グラフを O(E + V) で強連結成分分解する。
-出力されるリストはトポロジカルソートされている。
-"""
-
-
 def SCC(graph: list[list[int]]) -> list[list[int]]:
     n = len(graph)
     rev_graph = [[] for _ in range(n)]
